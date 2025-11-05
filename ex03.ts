@@ -8,7 +8,7 @@ let cont: number = 1;
 while(nums.size < 10){
     let novoNum: number= readline.questionInt(`\nDigite o ${cont}o número: `);
     if (nums.has(novoNum)){
-        console.log(`Número ${novoNum} já existe no set!`)
+        console.log(`Número ${novoNum} já existe no set!`);
     }
     else{
         nums.add(novoNum);
@@ -16,7 +16,7 @@ while(nums.size < 10){
     }
 }
 
-console.log("Números do set:")
+console.log("Números do set:");
 
 for (let num of nums) {
     console.log(num);
