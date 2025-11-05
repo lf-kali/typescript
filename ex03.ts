@@ -19,5 +19,5 @@ while(nums.size < 10){
 console.log("Números do set:");
 
 for (let num of nums) {
-    console.log(num);
+    console.log("\n", num);
 }
